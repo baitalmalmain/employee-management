@@ -1,0 +1,70 @@
+{
+  "appTitle": "إدارة الموظفين",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "settings": "الإعدادات",
+  "@settings": {
+    "description": "Label for the settings screen and menu item"
+  },
+  "darkMode": "الوضع المظلم",
+  "@darkMode": {
+    "description": "Label for the dark mode toggle switch"
+  },
+  "language": "اللغة",
+  "@language": {
+    "description": "Label for the language selection option"
+  },
+  "english": "الإنجليزية",
+  "@english": {
+    "description": "Name of the English language option"
+  },
+  "arabic": "العربية",
+  "@arabic": {
+    "description": "Name of the Arabic language option"
+  },
+  "addEmployee": "إضافة موظف",
+  "@addEmployee": {
+    "description": "Label for the add employee action"
+  },
+  "name": "الاسم",
+  "@name": {
+    "description": "Label for the employee name field"
+  },
+  "id": "رقم الهوية",
+  "@id": {
+    "description": "Label for the employee ID field"
+  },
+  "email": "البريد الإلكتروني",
+  "@email": {
+    "description": "Label for the employee email field"
+  },
+  "position": "المنصب",
+  "@position": {
+    "description": "Label for the employee position field"
+  },
+  "phoneNumber": "رقم الهاتف",
+  "@phoneNumber": {
+    "description": "Label for the employee phone number field"
+  },
+  "address": "العنوان",
+  "@address": {
+    "description": "Label for the employee address field"
+  },
+  "salary": "الراتب",
+  "@salary": {
+    "description": "Label for the employee salary field"
+  },
+  "save": "حفظ",
+  "@save": {
+    "description": "Label for the save button"
+  },
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": "Label for the cancel button"
+  },
+  "employeeList": "قائمة الموظفين",
+  "@employeeList": {
+    "description": "Title for the employee list screen"
+  }
+}
