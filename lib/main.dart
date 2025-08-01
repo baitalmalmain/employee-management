@@ -8,12 +8,18 @@ import 'package:provider/provider.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'models/employee.dart';
+import 'models/salary.dart';
+import 'models/time_off.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
   Hive.registerAdapter(EmployeeAdapter());
-  await Hive.openBox<Employee>('employees');
+  Hive.registerAdapter(SalaryAdapter());
+  Hive.registerAdapter(TimeOffAdapter());
+  await Hive.openBox<Employee>("employees");
+  await Hive.openBox<Salary>("salaries");
+  await Hive.openBox<TimeOff>("timeOffs");
   runApp(
     Phoenix(
       child: MultiProvider(

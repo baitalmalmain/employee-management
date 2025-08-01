@@ -95,107 +95,209 @@ abstract class AppLocalizations {
     Locale('en')
   ];
 
-  /// No description provided for @appTitle.
+  /// The title of the application
   ///
   /// In en, this message translates to:
   /// **'Employee Management'**
   String get appTitle;
 
-  /// No description provided for @settings.
+  /// Label for the settings screen and menu item
   ///
   /// In en, this message translates to:
   /// **'Settings'**
   String get settings;
 
-  /// No description provided for @darkMode.
+  /// Label for the dark mode toggle switch
   ///
   /// In en, this message translates to:
   /// **'Dark Mode'**
   String get darkMode;
 
-  /// No description provided for @language.
+  /// Label for the language selection option
   ///
   /// In en, this message translates to:
   /// **'Language'**
   String get language;
 
-  /// No description provided for @english.
+  /// Name of the English language option
   ///
   /// In en, this message translates to:
   /// **'English'**
   String get english;
 
-  /// No description provided for @arabic.
+  /// Name of the Arabic language option
   ///
   /// In en, this message translates to:
   /// **'Arabic'**
   String get arabic;
 
-  /// No description provided for @addEmployee.
+  /// Label for the add employee action
   ///
   /// In en, this message translates to:
   /// **'Add Employee'**
   String get addEmployee;
 
-  /// No description provided for @name.
+  /// Label for the employee name field
   ///
   /// In en, this message translates to:
   /// **'Name'**
   String get name;
 
-  /// No description provided for @id.
+  /// Label for the employee ID field
   ///
   /// In en, this message translates to:
   /// **'ID'**
   String get id;
 
-  /// No description provided for @email.
+  /// Label for the employee email field
   ///
   /// In en, this message translates to:
   /// **'Email'**
   String get email;
 
-  /// No description provided for @position.
+  /// Label for the employee position field
   ///
   /// In en, this message translates to:
   /// **'Position'**
   String get position;
 
-  /// No description provided for @phoneNumber.
+  /// Label for the employee phone number field
   ///
   /// In en, this message translates to:
   /// **'Phone Number'**
   String get phoneNumber;
 
-  /// No description provided for @address.
+  /// Label for the employee address field
   ///
   /// In en, this message translates to:
   /// **'Address'**
   String get address;
 
-  /// No description provided for @salary.
+  /// Label for the employee salary field
   ///
   /// In en, this message translates to:
   /// **'Salary'**
   String get salary;
 
-  /// No description provided for @save.
+  /// Label for the save button
   ///
   /// In en, this message translates to:
   /// **'Save'**
   String get save;
 
-  /// No description provided for @cancel.
+  /// Label for the cancel button
   ///
   /// In en, this message translates to:
   /// **'Cancel'**
   String get cancel;
 
-  /// No description provided for @employeeList.
+  /// Title for the employee list screen
   ///
   /// In en, this message translates to:
   /// **'Employee List'**
   String get employeeList;
+
+  /// Label for notifications setting
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get notifications;
+
+  /// Label for data management setting
+  ///
+  /// In en, this message translates to:
+  /// **'Data Management'**
+  String get dataManagement;
+
+  /// Label for about setting
+  ///
+  /// In en, this message translates to:
+  /// **'About'**
+  String get about;
+
+  /// Name of the application
+  ///
+  /// In en, this message translates to:
+  /// **'Employee Management App'**
+  String get appName;
+
+  /// Sort option for employee name
+  ///
+  /// In en, this message translates to:
+  /// **'Sort by Name'**
+  String get sortByName;
+
+  /// Sort option for employee ID
+  ///
+  /// In en, this message translates to:
+  /// **'Sort by ID'**
+  String get sortById;
+
+  /// Sort option for employee salary
+  ///
+  /// In en, this message translates to:
+  /// **'Sort by Salary'**
+  String get sortBySalary;
+
+  /// Sort option for employee position
+  ///
+  /// In en, this message translates to:
+  /// **'Sort by Position'**
+  String get sortByPosition;
+
+  /// Title for the salary tracking screen
+  ///
+  /// In en, this message translates to:
+  /// **'Salary Tracking'**
+  String get salaryTracking;
+
+  /// Title for the time off tracking screen
+  ///
+  /// In en, this message translates to:
+  /// **'Time Off Tracking'**
+  String get timeOffTracking;
+
+  /// Label for selecting an employee
+  ///
+  /// In en, this message translates to:
+  /// **'Select Employee'**
+  String get selectEmployee;
+
+  /// Label for salary amount field
+  ///
+  /// In en, this message translates to:
+  /// **'Amount'**
+  String get amount;
+
+  /// Label for date field
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get date;
+
+  /// Label for adding a record
+  ///
+  /// In en, this message translates to:
+  /// **'Add Record'**
+  String get addRecord;
+
+  /// Label for start date field
+  ///
+  /// In en, this message translates to:
+  /// **'Start Date'**
+  String get startDate;
+
+  /// Label for end date field
+  ///
+  /// In en, this message translates to:
+  /// **'End Date'**
+  String get endDate;
+
+  /// Label for reason field
+  ///
+  /// In en, this message translates to:
+  /// **'Reason'**
+  String get reason;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

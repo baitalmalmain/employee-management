@@ -58,4 +58,55 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get employeeList => 'Employee List';
+
+  @override
+  String get notifications => 'Notifications';
+
+  @override
+  String get dataManagement => 'Data Management';
+
+  @override
+  String get about => 'About';
+
+  @override
+  String get appName => 'Employee Management App';
+
+  @override
+  String get sortByName => 'Sort by Name';
+
+  @override
+  String get sortById => 'Sort by ID';
+
+  @override
+  String get sortBySalary => 'Sort by Salary';
+
+  @override
+  String get sortByPosition => 'Sort by Position';
+
+  @override
+  String get salaryTracking => 'Salary Tracking';
+
+  @override
+  String get timeOffTracking => 'Time Off Tracking';
+
+  @override
+  String get selectEmployee => 'Select Employee';
+
+  @override
+  String get amount => 'Amount';
+
+  @override
+  String get date => 'Date';
+
+  @override
+  String get addRecord => 'Add Record';
+
+  @override
+  String get startDate => 'Start Date';
+
+  @override
+  String get endDate => 'End Date';
+
+  @override
+  String get reason => 'Reason';
 }

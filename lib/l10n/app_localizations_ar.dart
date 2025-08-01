@@ -58,4 +58,55 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get employeeList => 'قائمة الموظفين';
+
+  @override
+  String get notifications => 'الإشعارات';
+
+  @override
+  String get dataManagement => 'إدارة البيانات';
+
+  @override
+  String get about => 'حول التطبيق';
+
+  @override
+  String get appName => 'تطبيق إدارة الموظفين';
+
+  @override
+  String get sortByName => 'الترتيب حسب الاسم';
+
+  @override
+  String get sortById => 'الترتيب حسب رقم الهوية';
+
+  @override
+  String get sortBySalary => 'الترتيب حسب الراتب';
+
+  @override
+  String get sortByPosition => 'الترتيب حسب المنصب';
+
+  @override
+  String get salaryTracking => 'تتبع الراتب';
+
+  @override
+  String get timeOffTracking => 'تتبع الإجازات';
+
+  @override
+  String get selectEmployee => 'اختر موظف';
+
+  @override
+  String get amount => 'المبلغ';
+
+  @override
+  String get date => 'التاريخ';
+
+  @override
+  String get addRecord => 'إضافة سجل';
+
+  @override
+  String get startDate => 'تاريخ البداية';
+
+  @override
+  String get endDate => 'تاريخ النهاية';
+
+  @override
+  String get reason => 'السبب';
 }

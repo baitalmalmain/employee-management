@@ -66,5 +66,73 @@
   "employeeList": "Employee List",
   "@employeeList": {
     "description": "Title for the employee list screen"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Label for notifications setting"
+  },
+  "dataManagement": "Data Management",
+  "@dataManagement": {
+    "description": "Label for data management setting"
+  },
+  "about": "About",
+  "@about": {
+    "description": "Label for about setting"
+  },
+  "appName": "Employee Management App",
+  "@appName": {
+    "description": "Name of the application"
+  },
+  "sortByName": "Sort by Name",
+  "@sortByName": {
+    "description": "Sort option for employee name"
+  },
+  "sortById": "Sort by ID",
+  "@sortById": {
+    "description": "Sort option for employee ID"
+  },
+  "sortBySalary": "Sort by Salary",
+  "@sortBySalary": {
+    "description": "Sort option for employee salary"
+  },
+  "sortByPosition": "Sort by Position",
+  "@sortByPosition": {
+    "description": "Sort option for employee position"
+  },
+  "salaryTracking": "Salary Tracking",
+  "@salaryTracking": {
+    "description": "Title for the salary tracking screen"
+  },
+  "timeOffTracking": "Time Off Tracking",
+  "@timeOffTracking": {
+    "description": "Title for the time off tracking screen"
+  },
+  "selectEmployee": "Select Employee",
+  "@selectEmployee": {
+    "description": "Label for selecting an employee"
+  },
+  "amount": "Amount",
+  "@amount": {
+    "description": "Label for salary amount field"
+  },
+  "date": "Date",
+  "@date": {
+    "description": "Label for date field"
+  },
+  "addRecord": "Add Record",
+  "@addRecord": {
+    "description": "Label for adding a record"
+  },
+  "startDate": "Start Date",
+  "@startDate": {
+    "description": "Label for start date field"
+  },
+  "endDate": "End Date",
+  "@endDate": {
+    "description": "Label for end date field"
+  },
+  "reason": "Reason",
+  "@reason": {
+    "description": "Label for reason field"
   }
 }

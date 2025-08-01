@@ -66,5 +66,74 @@
   "employeeList": "قائمة الموظفين",
   "@employeeList": {
     "description": "Title for the employee list screen"
+  },
+  "notifications": "الإشعارات",
+  "@notifications": {
+    "description": "Label for notifications setting"
+  },
+  "dataManagement": "إدارة البيانات",
+  "@dataManagement": {
+    "description": "Label for data management setting"
+  },
+  "about": "حول التطبيق",
+  "@about": {
+    "description": "Label for about setting"
+  },
+  "appName": "تطبيق إدارة الموظفين",
+  "@appName": {
+    "description": "Name of the application"
+  },
+  "sortByName": "الترتيب حسب الاسم",
+  "@sortByName": {
+    "description": "Sort option for employee name"
+  },
+  "sortById": "الترتيب حسب رقم الهوية",
+  "@sortById": {
+    "description": "Sort option for employee ID"
+  },
+  "sortBySalary": "الترتيب حسب الراتب",
+  "@sortBySalary": {
+    "description": "Sort option for employee salary"
+  },
+  "sortByPosition": "الترتيب حسب المنصب",
+  "@sortByPosition": {
+    "description": "Sort option for employee position"
+  },
+  "salaryTracking": "تتبع الراتب",
+  "@salaryTracking": {
+    "description": "Title for the salary tracking screen"
+  },
+  "timeOffTracking": "تتبع الإجازات",
+  "@timeOffTracking": {
+    "description": "Title for the time off tracking screen"
+  },
+  "selectEmployee": "اختر موظف",
+  "@selectEmployee": {
+    "description": "Label for selecting an employee"
+  },
+  "amount": "المبلغ",
+  "@amount": {
+    "description": "Label for salary amount field"
+  },
+  "date": "التاريخ",
+  "@date": {
+    "description": "Label for date field"
+  },
+  "addRecord": "إضافة سجل",
+  "@addRecord": {
+    "description": "Label for adding a record"
+  },
+  "startDate": "تاريخ البداية",
+  "@startDate": {
+    "description": "Label for start date field"
+  },
+  "endDate": "تاريخ النهاية",
+  "@endDate": {
+    "description": "Label for end date field"
+  },
+  "reason": "السبب",
+  "@reason": {
+    "description": "Label for reason field"
   }
 }
+
